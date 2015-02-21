@@ -25,5 +25,5 @@ Include `vagrant-kitchen-chef-server` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: Alex Naumchenko
+Author: Alex Naumchenko
 # vagrant-kitchen-chef-server
