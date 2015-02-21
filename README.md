@@ -1,8 +1,8 @@
 ## vagrant-kitchen-chef-server-cookbook
 ### Supported Platforms
 
-### - CentOS 
-
+### - CentOS 6.4
+### - RHEL 6.x
 ## Default parameters
 ### vagrant-kitchen-chef-server::default
 ```
