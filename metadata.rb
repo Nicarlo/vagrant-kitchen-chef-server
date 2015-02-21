@@ -1,0 +1,10 @@
+name             'devloft-chef-server'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures devloft-chef-server'
+long_description 'Installs/Configures devloft-chef-server'
+version          '0.1.0'
+
+depends 'chef-server', '~> 2.1.6'
+depends 'htop'
