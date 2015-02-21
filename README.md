@@ -1,7 +1,7 @@
 ## vagrant-kitchen-chef-server-cookbook
 ### Supported Platforms
 
-### CentOS 
+### - CentOS 
 
 ## Default parameters
 ### vagrant-kitchen-chef-server::default
