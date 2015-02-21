@@ -1,4 +1,4 @@
-# devloft-chef-server-cookbook
+# vagrant-kitchen-chef-server-cookbook
 
 TODO: Enter the cookbook description here.
 
@@ -16,7 +16,7 @@ TODO: List your supported platforms.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['devloft-chef-server']['bacon']</tt></td>
+    <td><tt>['vagrant-kitchen-chef-server']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -25,14 +25,14 @@ TODO: List your supported platforms.
 
 ## Usage
 
-### devloft-chef-server::default
+### vagrant-kitchen-chef-server::default
 
-Include `devloft-chef-server` in your node's `run_list`:
+Include `vagrant-kitchen-chef-server` in your node's `run_list`:
 
 ```json
 {
   "run_list": [
-    "recipe[devloft-chef-server::default]"
+    "recipe[vagrant-kitchen-chef-server::default]"
   ]
 }
 ```

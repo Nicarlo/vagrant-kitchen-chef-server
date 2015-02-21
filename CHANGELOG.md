@@ -1,3 +1,3 @@
 # 0.1.0
 
-Initial release of devloft-chef-server
+Initial release of vagrant-kitchen-chef-server

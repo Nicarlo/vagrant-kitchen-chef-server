@@ -16,6 +16,6 @@ platforms:
 suites:
   - name: chef-server
     run_list:
-       - recipe[devloft-chef-server::default]
+       - recipe[vagrant-kitchen-chef-server::default]
        - recipe[chef-server::default]
     attributes:
