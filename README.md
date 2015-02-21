@@ -1,27 +1,13 @@
 # vagrant-kitchen-chef-server-cookbook
 
-TODO: Enter the cookbook description here.
-
 ## Supported Platforms
 
-TODO: List your supported platforms.
+CentOS is a default platform
 
-## Attributes
-
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['vagrant-kitchen-chef-server']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+```
+default['chef-server']['url'] = 'https://web-dl.packagecloud.io/chef/stable/packages/el/6/chef-server-core-12.0.0-1.el6.x86_64.rpm'
+default['chef-server']['configuration']['nginx']['ssl_port'] = 8443
+```
 
 ## Usage
 
