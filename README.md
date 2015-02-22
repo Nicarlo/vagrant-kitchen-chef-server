@@ -1,7 +1,7 @@
 ## vagrant-kitchen-chef-server-cookbook
 ### Supported Platforms
 
-### - CentOS 6.4
+ CentOS 6.4
 ### - RHEL 6.x
 ## Default parameters
 ### vagrant-kitchen-chef-server::default
@@ -35,4 +35,5 @@ Open in browser URL: https://chef-server-centos-64.vagrantup.com:8443
 ## License and Authors
 
 Author: Alex Naumchenko
+Author: Nick Mancuso
 
