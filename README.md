@@ -1,8 +1,8 @@
 ## vagrant-kitchen-chef-server-cookbook
 ### Supported Platforms
 
- CentOS 6.4
-### - RHEL 6.x
+### CentOS 6.4
+
 ## Default parameters
 ### vagrant-kitchen-chef-server::default
 ```
@@ -32,8 +32,20 @@ cd vagrant-kitchen-chef-server; kitchen converge
 sudo echo "127.0.0.1 chef-server-centos-64.vagrantup.com" >> /etc/hosts
 ```
 Open in browser URL: https://chef-server-centos-64.vagrantup.com:8443
+
+### Run Chef webgui from alternative port
+in `attributes/default.rb` add the following
+`default['chef-server']['configuration']['nginx']['ssl_port'] = 8443`
+
+To run from a private IP
+open `kitchen.yml` and under `driver:``, changing the private ip to whatever you want
+
+```
+driver:
+  name: vagrant
+  network:
+  - ["private_network", {ip: "33.33.33.10"}]
+```
 ## License and Authors
 
-Author: Alex Naumchenko
-Author: Nick Mancuso
-
+Authors: Alex Naumchenko, Nick Mancuso
