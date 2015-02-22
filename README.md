@@ -23,6 +23,12 @@ Include `vagrant-kitchen-chef-server` in your node's `run_list`:
   ]
 }
 ```
+local kitchen method:
+```
+git clone https://github.com/naumchenko/vagrant-kitchen-chef-server.git
+cd vagrant-kitchen-chef-server; kitchen converge
+
+```
 
 ## License and Authors
 
