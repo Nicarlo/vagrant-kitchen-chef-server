@@ -23,10 +23,13 @@ Include `vagrant-kitchen-chef-server` in your node's `run_list`:
   ]
 }
 ```
-Local dev kitchen:
+Local dev kitchen setup:
 ```
 git clone https://github.com/naumchenko/vagrant-kitchen-chef-server.git
 cd vagrant-kitchen-chef-server; kitchen converge
+sudo echo "127.0.0.1 chef-server-centos-64.vagrantup.com" >> /etc/hosts
+
+Cehf-server URL https://chef-server-centos-64.vagrantup.com:8443
 ```
 
 ## License and Authors
